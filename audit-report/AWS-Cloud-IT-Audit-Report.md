@@ -27,7 +27,7 @@ The audit was conducted using:
 ### Finding 1 — Excessive Privileged Access
 
 #### Observation
-An IAM user named `audit-user` was assigned the `AdministratorAccess` policy, providing unrestricted administrative privileges within the AWS environment.
+An IAM user was configured with elevated administrative permissions through the use of an AdministratorAccess permissions boundary.
 
 #### Risk
 Excessive privileges increase the risk of unauthorized system changes, privilege abuse, and potential compromise of sensitive cloud resources.
