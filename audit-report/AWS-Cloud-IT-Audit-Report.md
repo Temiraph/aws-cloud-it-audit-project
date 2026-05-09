@@ -1,7 +1,22 @@
 # AWS Cloud IT Audit Report
 
 ## 1. Executive Summary
-This audit assessed selected AWS cloud controls related to identity and access management, storage security, and logging/monitoring.
+
+A review of selected AWS cloud security controls was conducted to assess the effectiveness of identity and access management, storage security, and logging controls within the environment.
+
+The audit identified several high-risk control weaknesses related to excessive privileged access, lack of multi-factor authentication (MFA), publicly accessible cloud storage, and incomplete logging configuration.
+
+These weaknesses increase the risk of unauthorized access, data exposure, and reduced visibility into security events and user activities.
+
+Based on the control testing performed, the overall control environment was assessed as requiring significant improvement.
+
+Key recommendations include:
+- enforcing least privilege access
+- enabling MFA for all IAM users
+- restricting public access to cloud storage
+- implementing centralized logging and monitoring controls
+
+Addressing these issues would significantly improve the security and governance posture of the AWS environment.
 
 ## 2. Audit Objective
 The objective of this audit was to evaluate whether key AWS controls are appropriately configured to reduce security, compliance, and operational risks.
