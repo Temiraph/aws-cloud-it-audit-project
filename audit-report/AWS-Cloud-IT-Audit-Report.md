@@ -100,3 +100,13 @@ High
 
 #### Recommendation
 CloudTrail should be configured across all required regions and integrated with centralized monitoring and log retention controls.
+
+----
+## 6. Remediation Roadmap
+
+| Finding                                | Risk Level | Recommended Action                                              | Priority | Target Timeline |
+|----------------------------------------|-------------|------------------------------------------------------------------|----------|------------------|
+| Excessive Privileged Access            | Critical    | Replace AdministratorAccess with least privilege roles           | High     | Immediate        |
+| MFA Not Enabled                        | Critical    | Enforce MFA for all IAM users                                    | High     | Immediate        |
+| Publicly Accessible S3 Bucket          | Critical    | Block public access and review bucket policies                   | High     | Immediate        |
+| Incomplete Cloud Logging Configuration | Critical    | Configure centralized CloudTrail logging across all regions      | High     | 30 Days          |
